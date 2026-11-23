@@ -4,7 +4,7 @@
 
 *{
   box-sizing: border-box;
-  
+  scroll-behavior: smooth;
   
 }
 
@@ -206,6 +206,10 @@ background-color: rgba(165, 128, 198, 0.779);
 
     border-radius: 20px;
 }
+
+
+
+
 
 
 
