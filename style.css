@@ -14,7 +14,6 @@ body {
   font-style: italic;
 }
 
-
 /* ---- */
 
 p {
@@ -34,6 +33,19 @@ h2 {
 }
 
 /* ---- */
+
+.logo {
+  padding: 60px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 460px;
+  min-width: 120px;
+}
 
 main {
   min-height: 500px;
@@ -75,8 +87,6 @@ nav a {
   padding: 20px;
 }
 
-
-
 .btn-cta {
   display: flex;
   align-items: center;
@@ -88,15 +98,6 @@ nav a {
   height: 40px;
   align-self: center;
 }
-
-.logo {
-  padding: 60px;
-  font-size: 1rem;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
 
 .box2 {
   flex-direction: row;
@@ -141,8 +142,6 @@ nav a {
   margin-top: 20px;
   height: auto;
 }
-
-
 
 .box3 {
   padding: 0;
